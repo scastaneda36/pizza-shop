@@ -10,28 +10,12 @@ _An independent project to using what we learned from Object Constructors._
 
  _Obeject constructor with that contains properties size, toppings, and sauce _
 
-*_The program does nothing to non-numerical characters_
-_Example Input: 3_
-_Example Output: will not accept non numberical numbers_
-
-*_Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that."_
-_Example Input: 30_
-_Example Output: "I'm sorry, Dave. I'm afraid I can't do that."_
-
-*_numbers that contain 1 are replaced with "Boop!"_
-_Example Input: 1_
-_Example Output: "Boop!"_
-
-*_numbers that contain 0 are replaced with "Beep!"_
-_Example Input: 0_
-_Example Output: "Beep!"_
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
-* _Open a simple HTTP server in the top level of the cloned directory. For a mac, run the following command in your terminal:_   
-* _python -m SimpleHTTPServer_
-* _Then open your web browser of choice to localhost:8000_
+* _Clone this repository from terminal_
+_https://github.com/scastaneda36/pizza-shop.git_er_
+* _open index file to see website, or open index in Atom_
 
 ## Support and contact details
 
