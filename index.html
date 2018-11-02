@@ -13,14 +13,16 @@
     <form id="Pizza">
     <div id="Toppings">
       <h2>Pick Up To Three Toppings!</h2>
-      <select id="t1">
-        <option value="pepperonit">Pepperroni!</option>
-        <option value="xtracheese">Extra Cheese</option>
-        <option value="bacon">Bacon</option>
-        <option value="peppers">Bell Peppers</option>
-        <option value="pinneapple">Pinnaple</option>
-        <option value="jalapenos">Jalapenos</option>
-      </select>
+      <input type="radio" id="topping1"name=toppings value="pepperoni">
+      <label for="topping1">Pepperoni</label>
+      <input type="radio" id="topping2"name=toppings value="xtracheese">
+      <label for="topping2">Extra Cheese</label>
+      <input type="radio" id="topping3"name=toppings value="bacon">
+      <label for="topping3">Bacon</label>
+      <input type="radio" id="topping4 "name=toppings value="peppers">
+      <label for="topping4">Bell Peppers</label>
+      <input type="radio" id="topping5 "name=toppings value="pinneapple">
+      <label for="topping5">Pinneapple</label>
     </div>
       <br>
       <div id="sauce">
@@ -35,14 +37,15 @@
       <br>
       <div id="size">
         <h2>Select a Size</h2>
-        <select id="q3">Large Pizza (Feeds 4-5 People)</option>
+        <select id="size">
+          <option value= "large"> Large Pizza (Feeds 4-5 People)</option>
           <option value="medium">Medium Pizza (Feeds 2-3 People)</option>
           <option value="personal">Baby Pizza (Feeds you and only you)</option>
         </select>
       </div>
       <br>
     <br>
-      <button type="submit" id="yourpizza" class="btn btn-info">Submit</button>
+      <button type="submit" id="yourpizzatotal" class="btn btn-info">Submit</button>
 
     </form>
     <div id="total">
