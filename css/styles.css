@@ -4,12 +4,12 @@ h2 {
   font-family: serif;
   color: black;
 }
-label {
-  font-weight: bold;
-  color: lightblue;
-}
+
 form {
   padding: 20px;
 }
-#c,#java,#ruby {
-  display:none;
+h1{
+  background-color: lightblue;
+  font-weight: bold;
+
+}

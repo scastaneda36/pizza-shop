@@ -9,30 +9,24 @@
 </head>
 <body>
   <div class="container">
-    <h1>Build Your Pizza</h1>
+    <h1>Welcome to Pippin's Tasty Pizzas!</h1>
+<br>
+    <h3>Build Your Pizza Below!</h3>
+
     <form id="Pizza">
-    <div id="Toppings">
-      <h2>Pick Up To Three Toppings!</h2>
-      <input type="radio" id="topping1"name=toppings value="pepperoni">
-      <label for="topping1">Pepperoni</label>
-      <input type="radio" id="topping2"name=toppings value="xtracheese">
-      <label for="topping2">Extra Cheese</label>
-      <input type="radio" id="topping3"name=toppings value="bacon">
-      <label for="topping3">Bacon</label>
-      <input type="radio" id="topping4 "name=toppings value="peppers">
-      <label for="topping4">Bell Peppers</label>
-      <input type="radio" id="topping5 "name=toppings value="pinneapple">
-      <label for="topping5">Pinneapple</label>
-    </div>
+      <div id="toppings">
+        <h2>Choose a Single Topping!</h2>
+        <input type="checkbox" name="toppings" value="peppers"> Peppers.
+        <input type="checkbox" name="toppings" value="pinneapple"> Pinneapple.
+        <input type="checkbox" name="toppings" value="ham"> Ham.
+      </div>
       <br>
       <div id="sauce">
         <h2>Pick a Sauce!</h2>
-        <select id="sauce">
-          <option value="pesto">Pesto</option>
-          <option value="marinara">Marinara</option>
-          <option value="bbq">BBQ</option>
-          <option value="garlic">Garlic Sauce</option>
-        </select>
+        <div id="sauce">
+          <input type="checkbox" name = "sauce" value ="pesto">Pesto
+          <input type= "checkbox" name = "sauce" value="marinara">Marinara
+          <input type="checkbox" name = "sauce" value="sauce">Garlic Sauce
       </div>
       <br>
       <div id="size">
@@ -44,15 +38,12 @@
         </select>
       </div>
       <br>
-    <br>
-      <button type="submit" id="yourpizzatotal" class="btn btn-info">Submit</button>
+      <br>
+      <button type="submit" id="yourpizzatotal" class="btn btn-info">Total</button>
 
     </form>
     <div id="total">
-      <h4>We Reccomend that you try #C</h4>
-      <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
-
-      You can find more information on the Epicodus Website <a href="https://www.epicodus.com/c-sharp"> Here </a>
+      <h4>Your Pizza Order</h4>
     </div>
 
   </div>
