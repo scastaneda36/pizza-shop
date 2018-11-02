@@ -1,0 +1,15 @@
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: serif;
+  color: black;
+}
+label {
+  font-weight: bold;
+  color: lightblue;
+}
+form {
+  padding: 20px;
+}
+#c,#java,#ruby {
+  display:none;
