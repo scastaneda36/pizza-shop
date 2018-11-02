@@ -1,14 +1,30 @@
-# _Programming Language Suggester_
+# _Pizza Shop_
 
-#### _single Webpage for Epicodus, 10.18.2018_
+#### _Single Webpage for Epicodus, 10.18.2018_
 
 #### By _** Sandra Castaneda**_
 
 ## Description
 
-_Independent project to using what we learned from javascript and jQuery-3.3.1._
+_An independent project to using what we learned from Object Constructors._
 
-_https://github.com/scastaneda36/Portfolio-landing_
+ _Obeject constructor with that contains properties size, toppings, and sauce _
+
+*_The program does nothing to non-numerical characters_
+_Example Input: 3_
+_Example Output: will not accept non numberical numbers_
+
+*_Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that."_
+_Example Input: 30_
+_Example Output: "I'm sorry, Dave. I'm afraid I can't do that."_
+
+*_numbers that contain 1 are replaced with "Boop!"_
+_Example Input: 1_
+_Example Output: "Boop!"_
+
+*_numbers that contain 0 are replaced with "Beep!"_
+_Example Input: 0_
+_Example Output: "Beep!"_
 
 ## Setup/Installation Requirements
 
@@ -22,6 +38,8 @@ _https://github.com/scastaneda36/Portfolio-landing_
 _Contact  Sandra Castaneda- sancastans.gmail.com._
 
 ## GitHub page's links
+
+_https://github.com/scastaneda36/_
 
 ## Technologies Used
 
